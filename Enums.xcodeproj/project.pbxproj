@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBBC67DD1831F81200A23FDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBC67DC1831F81200A23FDE /* Foundation.framework */; };
+		EBBC67DF1831F81200A23FDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBC67DE1831F81200A23FDE /* CoreGraphics.framework */; };
+		EBBC67E11831F81200A23FDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBC67E01831F81200A23FDE /* UIKit.framework */; };
+		EBBC67E71831F81200A23FDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBBC67E51831F81200A23FDE /* InfoPlist.strings */; };
+		EBBC67E91831F81200A23FDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBC67E81831F81200A23FDE /* main.m */; };
+		EBBC67ED1831F81200A23FDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBC67EC1831F81200A23FDE /* AppDelegate.m */; };
+		EBBC67F01831F81200A23FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBC67EE1831F81200A23FDE /* Main.storyboard */; };
+		EBBC67F31831F81200A23FDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBC67F21831F81200A23FDE /* ViewController.m */; };
+		EBBC67F51831F81200A23FDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBBC67F41831F81200A23FDE /* Images.xcassets */; };
+		EBBC67FC1831F81200A23FDE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBC67FB1831F81200A23FDE /* XCTest.framework */; };
+		EBBC67FD1831F81200A23FDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBC67DC1831F81200A23FDE /* Foundation.framework */; };
+		EBBC67FE1831F81200A23FDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBC67E01831F81200A23FDE /* UIKit.framework */; };
+		EBBC68061831F81200A23FDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBBC68041831F81200A23FDE /* InfoPlist.strings */; };
+		EBBC68081831F81200A23FDE /* EnumsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBC68071831F81200A23FDE /* EnumsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBBC67FF1831F81200A23FDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBBC67D11831F81100A23FDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBBC67D81831F81200A23FDE;
+			remoteInfo = Enums;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBBC67D91831F81200A23FDE /* Enums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enums.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBC67DC1831F81200A23FDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBBC67DE1831F81200A23FDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EBBC67E01831F81200A23FDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBBC67E41831F81200A23FDE /* Enums-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Enums-Info.plist"; sourceTree = "<group>"; };
+		EBBC67E61831F81200A23FDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBBC67E81831F81200A23FDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBBC67EA1831F81200A23FDE /* Enums-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enums-Prefix.pch"; sourceTree = "<group>"; };
+		EBBC67EB1831F81200A23FDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBBC67EC1831F81200A23FDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBBC67EF1831F81200A23FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBBC67F11831F81200A23FDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBBC67F21831F81200A23FDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBBC67F41831F81200A23FDE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBBC67FA1831F81200A23FDE /* EnumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnumsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBC67FB1831F81200A23FDE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EBBC68031831F81200A23FDE /* EnumsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EnumsTests-Info.plist"; sourceTree = "<group>"; };
+		EBBC68051831F81200A23FDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBBC68071831F81200A23FDE /* EnumsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBBC67D61831F81200A23FDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBC67DF1831F81200A23FDE /* CoreGraphics.framework in Frameworks */,
+				EBBC67E11831F81200A23FDE /* UIKit.framework in Frameworks */,
+				EBBC67DD1831F81200A23FDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBC67F71831F81200A23FDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBC67FC1831F81200A23FDE /* XCTest.framework in Frameworks */,
+				EBBC67FE1831F81200A23FDE /* UIKit.framework in Frameworks */,
+				EBBC67FD1831F81200A23FDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBBC67D01831F81100A23FDE = {
+			isa = PBXGroup;
+			children = (
+				EBBC67E21831F81200A23FDE /* Enums */,
+				EBBC68011831F81200A23FDE /* EnumsTests */,
+				EBBC67DB1831F81200A23FDE /* Frameworks */,
+				EBBC67DA1831F81200A23FDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBBC67DA1831F81200A23FDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBBC67D91831F81200A23FDE /* Enums.app */,
+				EBBC67FA1831F81200A23FDE /* EnumsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBBC67DB1831F81200A23FDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBBC67DC1831F81200A23FDE /* Foundation.framework */,
+				EBBC67DE1831F81200A23FDE /* CoreGraphics.framework */,
+				EBBC67E01831F81200A23FDE /* UIKit.framework */,
+				EBBC67FB1831F81200A23FDE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBBC67E21831F81200A23FDE /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				EBBC67EB1831F81200A23FDE /* AppDelegate.h */,
+				EBBC67EC1831F81200A23FDE /* AppDelegate.m */,
+				EBBC67EE1831F81200A23FDE /* Main.storyboard */,
+				EBBC67F11831F81200A23FDE /* ViewController.h */,
+				EBBC67F21831F81200A23FDE /* ViewController.m */,
+				EBBC67F41831F81200A23FDE /* Images.xcassets */,
+				EBBC67E31831F81200A23FDE /* Supporting Files */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		EBBC67E31831F81200A23FDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBBC67E41831F81200A23FDE /* Enums-Info.plist */,
+				EBBC67E51831F81200A23FDE /* InfoPlist.strings */,
+				EBBC67E81831F81200A23FDE /* main.m */,
+				EBBC67EA1831F81200A23FDE /* Enums-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBBC68011831F81200A23FDE /* EnumsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBBC68071831F81200A23FDE /* EnumsTests.m */,
+				EBBC68021831F81200A23FDE /* Supporting Files */,
+			);
+			path = EnumsTests;
+			sourceTree = "<group>";
+		};
+		EBBC68021831F81200A23FDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBBC68031831F81200A23FDE /* EnumsTests-Info.plist */,
+				EBBC68041831F81200A23FDE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBBC67D81831F81200A23FDE /* Enums */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBBC680B1831F81200A23FDE /* Build configuration list for PBXNativeTarget "Enums" */;
+			buildPhases = (
+				EBBC67D51831F81200A23FDE /* Sources */,
+				EBBC67D61831F81200A23FDE /* Frameworks */,
+				EBBC67D71831F81200A23FDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Enums;
+			productName = Enums;
+			productReference = EBBC67D91831F81200A23FDE /* Enums.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBBC67F91831F81200A23FDE /* EnumsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBBC680E1831F81200A23FDE /* Build configuration list for PBXNativeTarget "EnumsTests" */;
+			buildPhases = (
+				EBBC67F61831F81200A23FDE /* Sources */,
+				EBBC67F71831F81200A23FDE /* Frameworks */,
+				EBBC67F81831F81200A23FDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBBC68001831F81200A23FDE /* PBXTargetDependency */,
+			);
+			name = EnumsTests;
+			productName = EnumsTests;
+			productReference = EBBC67FA1831F81200A23FDE /* EnumsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBBC67D11831F81100A23FDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Baraansoft;
+				TargetAttributes = {
+					EBBC67F91831F81200A23FDE = {
+						TestTargetID = EBBC67D81831F81200A23FDE;
+					};
+				};
+			};
+			buildConfigurationList = EBBC67D41831F81100A23FDE /* Build configuration list for PBXProject "Enums" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBBC67D01831F81100A23FDE;
+			productRefGroup = EBBC67DA1831F81200A23FDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBBC67D81831F81200A23FDE /* Enums */,
+				EBBC67F91831F81200A23FDE /* EnumsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBBC67D71831F81200A23FDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBC67F51831F81200A23FDE /* Images.xcassets in Resources */,
+				EBBC67E71831F81200A23FDE /* InfoPlist.strings in Resources */,
+				EBBC67F01831F81200A23FDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBC67F81831F81200A23FDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBC68061831F81200A23FDE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBBC67D51831F81200A23FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBC67F31831F81200A23FDE /* ViewController.m in Sources */,
+				EBBC67ED1831F81200A23FDE /* AppDelegate.m in Sources */,
+				EBBC67E91831F81200A23FDE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBC67F61831F81200A23FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBC68081831F81200A23FDE /* EnumsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBBC68001831F81200A23FDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBBC67D81831F81200A23FDE /* Enums */;
+			targetProxy = EBBC67FF1831F81200A23FDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBBC67E51831F81200A23FDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBBC67E61831F81200A23FDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EBBC67EE1831F81200A23FDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBBC67EF1831F81200A23FDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBBC68041831F81200A23FDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBBC68051831F81200A23FDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBBC68091831F81200A23FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBBC680A1831F81200A23FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBBC680C1831F81200A23FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enums/Enums-Prefix.pch";
+				INFOPLIST_FILE = "Enums/Enums-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBBC680D1831F81200A23FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enums/Enums-Prefix.pch";
+				INFOPLIST_FILE = "Enums/Enums-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EBBC680F1831F81200A23FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Enums.app/Enums";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enums/Enums-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EnumsTests/EnumsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EBBC68101831F81200A23FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Enums.app/Enums";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enums/Enums-Prefix.pch";
+				INFOPLIST_FILE = "EnumsTests/EnumsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBBC67D41831F81100A23FDE /* Build configuration list for PBXProject "Enums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBC68091831F81200A23FDE /* Debug */,
+				EBBC680A1831F81200A23FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBBC680B1831F81200A23FDE /* Build configuration list for PBXNativeTarget "Enums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBC680C1831F81200A23FDE /* Debug */,
+				EBBC680D1831F81200A23FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBBC680E1831F81200A23FDE /* Build configuration list for PBXNativeTarget "EnumsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBC680F1831F81200A23FDE /* Debug */,
+				EBBC68101831F81200A23FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBBC67D11831F81100A23FDE /* Project object */;
+}
